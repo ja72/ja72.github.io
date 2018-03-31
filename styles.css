@@ -1,0 +1,15 @@
+﻿body {
+    background-color: darkgreen;
+    color:  limegreen;
+    font-family: monospace;
+    font-size: large;
+}
+
+h1 {
+    color:  aquamarine;
+    font-family: sans-serif;
+}
+
+b {
+    color: greenyellow;
+}
