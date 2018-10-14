@@ -1,0 +1,9 @@
+Test Post
+===
+
+Within regular text, I should be able to do the following:
+
+ - Bullet Lists
+ - With Embedded MathJax $\left(1-\frac{x^2}{2}\right)=\frac{1}{2}$
+ 
+ Good Luck!
