@@ -1,11 +1,11 @@
 ﻿body {
-    background-color: darkgreen;
+    background: linear-gradient(15deg, #000000, #27305e);
     color:  limegreen;
     font-family: monospace;
     font-size: large;
 }
 
-h1 {
+h1, h2 {
     color:  aquamarine;
     font-family: sans-serif;
 }
@@ -13,3 +13,4 @@ h1 {
 b {
     color: greenyellow;
 }
+
