@@ -1,4 +1,4 @@
-# [ja72](https://ja72.github.io/)
+# [ja72.github.io](https://ja72.github.io/)
 Biographical Information Here
 
 # Programming
