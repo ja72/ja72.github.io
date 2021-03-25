@@ -16,3 +16,5 @@ Biographical Information Here
  3. **Joints**
  4. **Contacts**
  5. **Integration**
+
+<sub>Prepend `https://htmlpreview.github.io/?` to the URL for preview.</sub>
