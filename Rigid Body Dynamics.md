@@ -85,7 +85,7 @@ $$ \boldsymbol{p} = m\,\boldsymbol{v}_C \tag{5} $$
 
 The is a well known result, undesputed as long as $\boldsymbol{p}$ and $\boldsymbol{v}_C$ are measued form _the same coordinate frame_. Again, $\boldsymbol{v}_C$ is the velocity vector of the center of mass, as in
 
-$$ \boldsymbol{v}_C = \tfrac{\rm d}{{\rm d}t} \boldsymbol{r}_C $$
+$$ \boldsymbol{v}_C = \tfrac{\mathrm{d}} {\mathrm{d}t} \boldsymbol{r}_C $$
 
 ### Rotational Momentum about Center of Mass
 
@@ -130,8 +130,8 @@ Again, any resemblance to (1) and (4) is not a coincidence. This is because thes
 We establish Newton's second law about the center of mass **C** relating forces/torques to rate of change of momenta
 
 $$ \begin{aligned}
-\boldsymbol{F} & = \tfrac{\rm d}{{\rm d}t} \boldsymbol{p} \\
-\boldsymbol{\tau}_C & = \tfrac{\rm d}{{\rm d}t} \boldsymbol{L}_C
+\boldsymbol{F} & = \tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{p} \\
+\boldsymbol{\tau}_C & = \tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{L}_C
 \end{aligned} \tag{10} $$
 
 Using the definitions above from particle summation the expression of equations of motion are straigtforward when using rhe center of mass as a reference point.
@@ -143,8 +143,8 @@ $$ \begin{aligned}
 where 
 | quantity | description | definition |
 | ---: | :--- | :--- |
-| $\boldsymbol{a}_C$ | translational acceleration of the center of mass | $\tfrac{\rm d}{{\rm d}t} \boldsymbol{v}_C$ 
-| $\boldsymbol{\alpha}$ | rotational acceleration of the body | $\tfrac{\rm d}{{\rm d}t} \boldsymbol{\omega}$ |
+| $\boldsymbol{a}_C$ | translational acceleration of the center of mass | $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{v}_C$ 
+| $\boldsymbol{\alpha}$ | rotational acceleration of the body | $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{\omega}$ |
 
 ### Arbitrary Point
 
@@ -157,8 +157,8 @@ $$ \boldsymbol{\tau}_A = \tfrac{\rm d}{{\rm d}t} \boldsymbol{L}_A \tag{12} $$
 We can use the transformation laws (1) and (9) described above to see if (12) can lead to (11) which we know is correct.
 
 $$ \begin{aligned} 
-\boldsymbol{\tau}_C + (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}  & = \tfrac{\rm d}{{\rm d}t} ( \boldsymbol{L}_C + (\boldsymbol{r}_C-\boldsymbol{r}_A) \times \boldsymbol{p} ) \\
- & = \tfrac{\rm d}{{\rm d}t}  \boldsymbol{L}_C +  \tfrac{\rm d}{{\rm d}t} \left( (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} \right) \\
+\boldsymbol{\tau}_C + (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}  & = \tfrac{\mathrm{d}}{\mathrm{d}t} ( \boldsymbol{L}_C + (\boldsymbol{r}_C-\boldsymbol{r}_A) \times \boldsymbol{p} ) \\
+ & = \tfrac{\mathrm{d}}{\mathrm{d}t}  \boldsymbol{L}_C +  \tfrac{\rm d}{{\rm d}t} \left( (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} \right) \\
 \cancel{\boldsymbol{\tau}_C} + (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F} & = \cancel{\boldsymbol{\tau}_C} + \tfrac{\rm d}{{\rm d}t} (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} +  (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \tfrac{\rm d}{{\rm d}t} \boldsymbol{p} \\
 \cancel{(\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}}  &=  ( \boldsymbol{v}_C - \boldsymbol{v}_A)\times \boldsymbol{p} + \cancel{ (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}} \\ \boldsymbol{0} & = 
 \boldsymbol{p} \times ( \boldsymbol{v}_A - \boldsymbol{v}_C) \\
@@ -173,7 +173,7 @@ The _necessary_ condition(s) for (12) to be correct are as follows
 
 The general rule connecting equipollent torque to change in rotational momentum is thus
 
-$$ \boldsymbol{\tau}_A = \tfrac{\rm d}{{\rm d}t} \boldsymbol{L}_A + \boldsymbol{v}_A \times \boldsymbol{p} \tag{13} $$
+$$ \boldsymbol{\tau}_A = \tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{L}_A + \boldsymbol{v}_A \times \boldsymbol{p} \tag{13} $$
 
 where 
 
@@ -215,7 +215,7 @@ First we develop the equations of motion about the center of mass
 Now we apply equation (12) directly after the rotational momentum about **A** is calculated from (9). 
     - $\boldsymbol{L}_A = \begin{pmatrix} 0 \\ 0 \\ (I_C + m c^2) \omega \end{pmatrix}$
     - $\boldsymbol{\tau}_A = \begin{pmatrix} 0 \\ 0 \\ -\ell F_B \end{pmatrix}$
-    - $\tfrac{\rm d}{{\rm d}t}\boldsymbol{L}_A = \begin{pmatrix} 0 \\ 0 \\ (I_C + m c^2) \dot{\omega} \end{pmatrix}$
+    - $\tfrac{\mathrm{d}}{\mathrm{d}t}\boldsymbol{L}_A = \begin{pmatrix} 0 \\ 0 \\ (I_C + m c^2) \dot{\omega} \end{pmatrix}$
     - $\boldsymbol{v}_A \times \boldsymbol{p} = \begin{pmatrix} 0 \\ 0 \\ m\,c\,\omega\,v_A \end{pmatrix}$
 
 All together equation (12) is
