@@ -152,7 +152,7 @@ The question is can the equations of motion above can be derived from Newton's 2
 
 **Is the following valid?**
 
-$$ \boldsymbol{\tau}_A = \tfrac{\rm d}{{\rm d}t} \boldsymbol{L}_A \tag{12} $$
+$$ \boldsymbol{\tau}_A = \tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{L}_A \tag{12} $$
 
 We can use the transformation laws (1) and (9) described above to see if (12) can lead to (11) which we know is correct.
 
