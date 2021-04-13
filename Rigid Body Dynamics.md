@@ -158,7 +158,7 @@ We can use the transformation laws (1) and (9) described above to see if (12) ca
 
 $$ \begin{aligned} 
 \boldsymbol{\tau}_C + (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}  & = \tfrac{\mathrm{d}}{\mathrm{d}t} ( \boldsymbol{L}_C + (\boldsymbol{r}_C-\boldsymbol{r}_A) \times \boldsymbol{p} ) \\
- & = \tfrac{\mathrm{d}}{\mathrm{d}t}  \boldsymbol{L}_C +  \tfrac{\rm d}{{\rm d}t} \left( (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} \right) \\
+ & = \tfrac{\mathrm{d}}{\mathrm{d}t}  \boldsymbol{L}_C +  \tfrac{\mathrm{d}}{\mathrm{d}t} \left( (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} \right) \\
 \cancel{\boldsymbol{\tau}_C} + (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F} & = \cancel{\boldsymbol{\tau}_C} + \tfrac{\rm d}{{\rm d}t} (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} +  (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \tfrac{\rm d}{{\rm d}t} \boldsymbol{p} \\
 \cancel{(\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}}  &=  ( \boldsymbol{v}_C - \boldsymbol{v}_A)\times \boldsymbol{p} + \cancel{ (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}} \\ \boldsymbol{0} & = 
 \boldsymbol{p} \times ( \boldsymbol{v}_A - \boldsymbol{v}_C) \\
