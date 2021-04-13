@@ -226,5 +226,5 @@ which is solved for $\dot{\omega}$ to produce **the exact same same solution as 
 
 $$\dot{\omega} = - \dfrac{\ell F_B + m\,c\,\omega\,v_A}{I_C + m c^2}\;\;\checkmark$$
 
-> As in illustration we can see that $\boldsymbol{\tau}_A = \tfrac{\rm d}{{\rm d}t} \boldsymbol{L}_A$ would produce the incorrect result
+> As in illustration we can see that $\boldsymbol{\tau}_A = \tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{L}_A$ would produce the incorrect result
 >$$\dot{\omega} = - \dfrac{\ell F_B}{I_C + m c^2}$$
