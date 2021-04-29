@@ -152,14 +152,14 @@ The question is can the equations of motion above can be derived from Newton's 2
 
 **Is the following valid?**
 
-$$ \boldsymbol{\tau}_A = \tfrac{\rm d}{{\rm d}t} \boldsymbol{L}_A \tag{12} $$
+$$ \boldsymbol{\tau}_A = \tfrac{\mathrm{d}}{{\mathrm{d}}t} \boldsymbol{L}_A \tag{12} $$
 
 We can use the transformation laws (1) and (9) described above to see if (12) can lead to (11) which we know is correct.
 
 $$ \begin{aligned} 
 \boldsymbol{\tau}_C + (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}  & = \tfrac{\mathrm{d}}{\mathrm{d}t} ( \boldsymbol{L}_C + (\boldsymbol{r}_C-\boldsymbol{r}_A) \times \boldsymbol{p} ) \\
- & = \tfrac{\mathrm{d}}{\mathrm{d}t}  \boldsymbol{L}_C +  \tfrac{\rm d}{{\rm d}t} \left( (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} \right) \\
-\cancel{\boldsymbol{\tau}_C} + (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F} & = \cancel{\boldsymbol{\tau}_C} + \tfrac{\rm d}{{\rm d}t} (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} +  (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \tfrac{\rm d}{{\rm d}t} \boldsymbol{p} \\
+ & = \tfrac{\mathrm{d}}{\mathrm{d}t}  \boldsymbol{L}_C +  \tfrac{\mathrm{d}}{{\mathrm{d}}t} \left( (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} \right) \\
+\cancel{\boldsymbol{\tau}_C} + (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F} & = \cancel{\boldsymbol{\tau}_C} + \tfrac{\mathrm{d}}{{\mathrm{d}}t} (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \boldsymbol{p} +  (\boldsymbol{r}_C-\boldsymbol{r}_A)  \times \tfrac{\mathrm{d}}{{\mathrm{d}}t} \boldsymbol{p} \\
 \cancel{(\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}}  &=  ( \boldsymbol{v}_C - \boldsymbol{v}_A)\times \boldsymbol{p} + \cancel{ (\boldsymbol{r}_C - \boldsymbol{r}_A) \times \boldsymbol{F}} \\ \boldsymbol{0} & = 
 \boldsymbol{p} \times ( \boldsymbol{v}_A - \boldsymbol{v}_C) \\
 \boldsymbol{0} & = m\,\boldsymbol{v}_C \times \boldsymbol{v}_A
@@ -232,6 +232,6 @@ eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xOD
-A3NzM4MDgzXX0=
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xMj
+AxODk3ODc1LC0xODA3NzM4MDgzXX0=
 -->
