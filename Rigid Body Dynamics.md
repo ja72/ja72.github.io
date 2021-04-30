@@ -281,14 +281,14 @@ $$ \begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{L}_{A} & =\tfrac{{\rm d}}
 
 ## Spatial Acceleration
 
-The above expressions are not very intuitive or elegant. 
+The above expressions are not very intuitive or elegant. But the situation improves if instead of using  $\boldsymbol{a}_A$ the material acceleration of of **A**, we
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wzg1MD
-E3MTMyNiw4OTQ2NDk1ODgsMTQzODUxMzMwNywtMTk4Nzc1NDc2
-NCwtMTE3MTUwMDQwOCwtMTIwMTg5Nzg3NSwtMTgwNzczODA4M1
-19
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy03OD
+QwMTI1NDAsODk0NjQ5NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3
+NjQsLTExNzE1MDA0MDgsLTEyMDE4OTc4NzUsLTE4MDc3MzgwOD
+NdfQ==
 -->
