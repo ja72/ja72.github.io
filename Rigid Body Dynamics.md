@@ -283,16 +283,20 @@ $$ \begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{L}_{A} & =\tfrac{{\rm d}}
 
 The above expressions are not very intuitive or elegant. But the situation improves if instead of using  $\boldsymbol{a}_A$ the material acceleration of of **A**, we use the *spatial acceleration* of the body resolved at **A**. This is defined as
 
-$$ \boldsymbol{a}^\star_A = \boldsymbol{a}_A  - \boldsymbol{\omega}\times \boldsymbol{v}_A$$
+$$ \boldsymbol{a}^\star_A = \boldsymbol{a}_A  - \boldsymbol{\omega}\times \boldsymbol{v}_A \tag{19}$$
 
-The above is inspired by fluid dynamics, and it uses the material acceleration $\boldsymbol{a}_A$ _minus_ the certifugal parts $\boldsymbol{\omega} \times \boldsymbol{v}_A$. What remains is sometimes called the Eulerian acceleration. Spatial accelerations transform similarly to velocities $\boldsymbol{a}_C^\star = \boldsymbol{a}^\star_A + \boldsymbol{\alpha} \times \boldsymbol{c}$
+The above is inspired by fluid dynamics, and it uses the material acceleration $\boldsymbol{a}_A$ _minus_ the certifugal parts $\boldsymbol{\omega} \times \boldsymbol{v}_A$. What remains is sometimes called the Eulerian acceleration. Spatial accelerations transform similarly to velocities $\boldsymbol{a}_C^\star = \boldsymbol{a}^\star_A + \boldsymbol{\alpha} \times \boldsymbol{c}$.
+
+The material accelration can always be recovered from the spatial acceleration by reversing (19).
+
+### Translational Momentum
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzE1Nj
-A5OTQxNDksODk0NjQ5NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3
-NjQsLTExNzE1MDA0MDgsLTEyMDE4OTc4NzUsLTE4MDc3MzgwOD
-NdfQ==
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xMT
+E5MzMyNDEyLDg5NDY0OTU4OCwxNDM4NTEzMzA3LC0xOTg3NzU0
+NzY0LC0xMTcxNTAwNDA4LC0xMjAxODk3ODc1LC0xODA3NzM4MD
+gzXX0=
 -->
