@@ -262,14 +262,17 @@ We need to expand on the rate of momentum and find the spatial form of dynamics.
 
 ### Translational momentum
 
-Use the transformation of velocity from the center of mass to the arbitrary point to relate the change in momentum with the motion of **A**. Note that $\tfrac{\mathrm{d}}{\math
+Use the transformation of velocity from the center of mass to the arbitrary point to relate the change in momentum with the motion of **A**. 
 
 $$ \begin{aligned}\frac{{\rm d}}{{\rm d}t}\boldsymbol{p} & =\frac{{\rm d}}{{\rm d}t}\left(m\boldsymbol{v}_{C}\right)=\frac{{\rm d}}{{\rm d}t}\left(m\boldsymbol{v}_{A}+\boldsymbol{\omega}\times m\,\boldsymbol{c}\right)\\
  & =m\boldsymbol{a}_{A}+\boldsymbol{\alpha}\times m\,\boldsymbol{c}+\boldsymbol{\omega}\times m\left(\boldsymbol{v}_{C}-\boldsymbol{v}_{A}\right)
 \end{aligned} $$
 
+Note that $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{c} = \tfrac{\mathrm{d}}{\mathrm{d}t}\left( \boldsymbol{r}_C - \boldsymbol{r}_A\right) = \boldsymbol{v}_C - \boldsymbol{v}_A$
 
 ### Rotational momentum
+
+Similarly 
 
 ### Spatial Form
 
@@ -288,7 +291,7 @@ eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzE1MD
-I0MTMxMSwtMTk4Nzc1NDc2NCwtMTE3MTUwMDQwOCwtMTIwMTg5
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzIyND
+Y0NDYxNywtMTk4Nzc1NDc2NCwtMTE3MTUwMDQwOCwtMTIwMTg5
 Nzg3NSwtMTgwNzczODA4M119
 -->
