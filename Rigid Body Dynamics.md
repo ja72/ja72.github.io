@@ -138,6 +138,8 @@ m\boldsymbol{c}\times & \mathbf{I}_{A}
 
 where $\boldsymbol{c} = \boldsymbol{r}_C - \boldsymbol{r}_A$ is the location of the CM from the arbitrary point and $\mathbf{I}_A = \mathbf{I}_C - m\,[\boldsymbol{c}\times][\boldsymbol{c}\times]$ is the MMOI matrix at the arbitrary point
 
+The above
+
 ## Dynamics
 
 We establish Newton's second law about the center of mass **C** relating forces/torques to rate of change of momenta
@@ -324,13 +326,16 @@ m\boldsymbol{c}\times & \mathbf{I}_{A}
 \end{bmatrix} \tag{23} $$
 
 The first term is contains the spatial mass matrix just as momentum (10) does and the second term is the change in momentum due to the rotating frame. 
+
+## Spatial Dynamics
+
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy05OT
-g0ODAwOTAsLTg5Njc0NTQ5MSwtMTc3Mzk3ODM1MCw4OTQ2NDk1
-ODgsMTQzODUxMzMwNywtMTk4Nzc1NDc2NCwtMTE3MTUwMDQwOC
-wtMTIwMTg5Nzg3NSwtMTgwNzczODA4M119
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzcyMD
+IyNDc3MiwtODk2NzQ1NDkxLC0xNzczOTc4MzUwLDg5NDY0OTU4
+OCwxNDM4NTEzMzA3LC0xOTg3NzU0NzY0LC0xMTcxNTAwNDA4LC
+0xMjAxODk3ODc1LC0xODA3NzM4MDgzXX0=
 -->
