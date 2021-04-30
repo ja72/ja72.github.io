@@ -274,6 +274,11 @@ Note that $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{c} = \tfrac{\mathrm{d}}{\
 ### Rotational momentum
 
 Similarly differentiate (10) to get
+$$ \begin{aligned}\frac{{\rm d}}{{\rm d}t}\boldsymbol{L}_{A} & =\frac{{\rm d}}{{\rm d}t}\left(\boldsymbol{c}\times m\boldsymbol{v}_{A}+\mathbf{I}_{A}\boldsymbol{\omega}\right)\\
+ & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}+\left(\boldsymbol{v}_{C}-\boldsymbol{v}_{A}\right)\times m\boldsymbol{v}_{A}+\boldsymbol{c}\times m\boldsymbol{a}_{A}\\
+ & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}+\boldsymbol{p}\times\boldsymbol{v}_{A}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}
+\end{aligned} $$
+
 
 
 ### Spatial Form
@@ -293,7 +298,7 @@ eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzE0Mz
-g1MTMzMDcsLTE5ODc3NTQ3NjQsLTExNzE1MDA0MDgsLTEyMDE4
-OTc4NzUsLTE4MDc3MzgwODNdfQ==
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xMj
+UzMDUyMjU0LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3NjQsLTExNzE1
+MDA0MDgsLTEyMDE4OTc4NzUsLTE4MDc3MzgwODNdfQ==
 -->
