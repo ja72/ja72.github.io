@@ -293,7 +293,7 @@ $$ \boldsymbol{a}_{A}=\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\bolds
 
 ### Translational Momentum
 
-Use (20) into (17) to get
+Use (20) into (17) to get $$ \frac{{\rm d}}{{\rm d}t}\boldsymbol{p}
 
 
 <!--stackedit_data:
@@ -301,8 +301,8 @@ eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzE2Mj
-Y1NDEyMTcsODk0NjQ5NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy02OD
+YwODkyOTYsODk0NjQ5NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3
 NjQsLTExNzE1MDA0MDgsLTEyMDE4OTc4NzUsLTE4MDc3MzgwOD
 NdfQ==
 -->
