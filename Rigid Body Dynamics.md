@@ -138,7 +138,7 @@ m\boldsymbol{c}\times & \mathbf{I}_{A}
 
 where $\boldsymbol{c} = \boldsymbol{r}_C - \boldsymbol{r}_A$ is the location of the CM from the arbitrary point and $\mathbf{I}_A = \mathbf{I}_C - m\,[\boldsymbol{c}\times][\boldsymbol{c}\times]$ is the MMOI matrix at the arbitrary point
 
-The above
+The above is to be interpreted as spatial momentum (also known as the momentum wrench) equals a 6×6 mass matrix times the spatial motion (also known as the velocity twist). The mass
 
 ## Dynamics
 
@@ -334,8 +334,8 @@ eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzcyMD
-IyNDc3MiwtODk2NzQ1NDkxLC0xNzczOTc4MzUwLDg5NDY0OTU4
-OCwxNDM4NTEzMzA3LC0xOTg3NzU0NzY0LC0xMTcxNTAwNDA4LC
-0xMjAxODk3ODc1LC0xODA3NzM4MDgzXX0=
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xMj
+A0NDc4NTM1LC04OTY3NDU0OTEsLTE3NzM5NzgzNTAsODk0NjQ5
+NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3NjQsLTExNzE1MDA0MD
+gsLTEyMDE4OTc4NzUsLTE4MDc3MzgwODNdfQ==
 -->
