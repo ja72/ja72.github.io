@@ -158,6 +158,9 @@ where
 | $\boldsymbol{a}_C$ | translational acceleration of the center of mass | $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{v}_C$ 
 | $\boldsymbol{\alpha}$ | rotational acceleration of the body | $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{\omega}$ |
 
+In spatial form the above is 
+
+
 ### Arbitrary Point
 
 The question is can the equations of motion above can be derived from Newton's 2nd law _at an arbitrary location_?
@@ -250,6 +253,6 @@ eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0yMT
-AxOTY4NjUzLC0xMjAxODk3ODc1LC0xODA3NzM4MDgzXX0=
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzczND
+YzNjQ0MiwtMTIwMTg5Nzg3NSwtMTgwNzczODA4M119
 -->
