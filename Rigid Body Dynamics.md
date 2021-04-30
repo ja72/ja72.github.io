@@ -187,8 +187,8 @@ where
 In spatial form the above is
 
 $$\begin{bmatrix}
-\boldsymbol{F} \\ \boldsymbol{\tau}_A \end{bmatrix} =  
-\begin{bmatrix} \boldsymbol{p} \\ \boldsymbol{L}_A \end{bmatrix}$$
+\boldsymbol{F} \\ \boldsymbol{\tau}_A \end{bmatrix} =  \frac{\mathrm{d}}{\mathrm{d}t}
+\begin{bmatrix} \boldsymbol{p} \\ \boldsymbol{L}_A \end{bmatrix} + \begin{bmatrix} 0  \\ \boldsymbol{v}_A \times \boldsymbol{p} \end{bmatrix} $$
 
 ### Example
 
@@ -238,6 +238,6 @@ eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wzg3OD
-AwNjgxNywtMTIwMTg5Nzg3NSwtMTgwNzczODA4M119
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xNT
+UxODY2Mjg0LC0xMjAxODk3ODc1LC0xODA3NzM4MDgzXX0=
 -->
