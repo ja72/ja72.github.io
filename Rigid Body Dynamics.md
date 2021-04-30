@@ -285,14 +285,14 @@ The above expressions are not very intuitive or elegant. But the situation impro
 
 $$ \boldsymbol{a}^\star_A = \boldsymbol{a}_A  - \boldsymbol{\omega}\times \boldsymbol{v}_A$$
 
-The a
+The above is inspired by fluid dynamics, and it uses the material acceleration $\boldsymbol{a}_A$ _minus_ the certifugal parts $\boldsymbol{\omega} \times \boldsymbol{v}_A$. A similar epxression can be used anywhere
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy04Mz
-YzNjg0NzYsODk0NjQ5NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzIxMT
+cwNjc5MDYsODk0NjQ5NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3
 NjQsLTExNzE1MDA0MDgsLTEyMDE4OTc4NzUsLTE4MDc3MzgwOD
 NdfQ==
 -->
