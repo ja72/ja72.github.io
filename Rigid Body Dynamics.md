@@ -258,12 +258,15 @@ $$\dot{\omega} = - \dfrac{\ell F_B + m\,c\,\omega\,v_A}{I_C + m c^2}\;\;\checkma
 
 ## Rotational momemtnum rate
 
-Equation (16)
+We need to expand on the rate of momentum and find the spatial form of dynamics.
+
+$$ \frac{\mathrm{d}}{\mathrm{d}t}
+\begin{bmatrix} \boldsymbol{p} \\ \boldsymbol{L}_A \end{bmatrix} = $$
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzE2OD
-gxNDY3OTQsLTEyMDE4OTc4NzUsLTE4MDc3MzgwODNdfQ==
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wzg4NT
+M0MzEyMSwtMTIwMTg5Nzg3NSwtMTgwNzczODA4M119
 -->
