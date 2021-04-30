@@ -1,4 +1,4 @@
-
+﻿
 # Angular Momentum and Torque on a Rigid Body
 
 Angular momentum of a rigid body varies as the point of summation varies. Also, equipollent torque varies as the point of summation varies also. This posts examines the relationship between change in angular momentum and equipollent torque in the context of Newton's 2nd law.  It is <strike>expected</strike> required that at the center of mass equipollent torque and change in angular momentum at simply equal to each other. But what about when measured at an arbitrary point **A** not at the center of mass **C**.
@@ -346,14 +346,3 @@ m\boldsymbol{c}\times & \mathbf{I}_{A}
 The above is valid at _any_ arbitrary point **A**, being inertial, co-moving or completely independent of the motion of the center of mass. All of the 6×1 quantities above transform with standard twist and wrench rules allowing the above equation to be applied to kinematically meaningful points, such as on joints where motions might be if not prescribed, but constrained geometrically.
 
 The first part is obviously the effect of body acceleration (as in rate of change of velocity twist) throught the spatial mass matrix. The second part is the effect of the rotating momentum wrench has on the forces and torques required for such motion.
-<!--stackedit_data:
-eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
-N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
-bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
-JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xMj
-E3ODIwNDcyLC0xNDc4NTUzOTg5LC04OTY3NDU0OTEsLTE3NzM5
-NzgzNTAsODk0NjQ5NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3Nj
-QsLTExNzE1MDA0MDgsLTEyMDE4OTc4NzUsLTE4MDc3MzgwODNd
-fQ==
--->
