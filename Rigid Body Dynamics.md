@@ -256,12 +256,14 @@ which is solved for $\dot{\omega}$ to produce **the exact same same solution as 
 
 $$\dot{\omega} = - \dfrac{\ell F_B + m\,c\,\omega\,v_A}{I_C + m c^2}\;\;\checkmark$$
 
+## Rotational momemtnum rate
 
+Equation (16)
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wzk5Mj
-U4NzM2LC0xMjAxODk3ODc1LC0xODA3NzM4MDgzXX0=
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzE2OD
+gxNDY3OTQsLTEyMDE4OTc4NzUsLTE4MDc3MzgwODNdfQ==
 -->
