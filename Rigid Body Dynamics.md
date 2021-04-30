@@ -125,6 +125,7 @@ $$ \begin{aligned} \boldsymbol{L}_A & = \boldsymbol{L}_C + (\boldsymbol{r}_C-\bo
 
 Again, any resemblance to (1) and (4) is not a coincidence. This is because these are Plücker coordinates of different lines in space. The force line is called the _line of action_. The motion line is called the _rotation axis_. And the momentum line is called _axis of percussion_.
 
+### Spatial Momentum
 In spatial form the above is 
 
 $$\begin{bmatrix}\boldsymbol{p}\\
@@ -272,7 +273,8 @@ Note that $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{c} = \tfrac{\mathrm{d}}{\
 
 ### Rotational momentum
 
-Similarly 
+Similarly differentiate (10) to get
+
 
 ### Spatial Form
 
@@ -291,7 +293,7 @@ eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzIyND
-Y0NDYxNywtMTk4Nzc1NDc2NCwtMTE3MTUwMDQwOCwtMTIwMTg5
-Nzg3NSwtMTgwNzczODA4M119
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6WzE0Mz
+g1MTMzMDcsLTE5ODc3NTQ3NjQsLTExNzE1MDA0MDgsLTEyMDE4
+OTc4NzUsLTE4MDc3MzgwODNdfQ==
 -->
