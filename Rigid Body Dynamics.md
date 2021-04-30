@@ -267,7 +267,7 @@ Use the transformation of velocity from the center of mass to the arbitrary poin
 
 $$ \begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{p} & =\tfrac{{\rm d}}{{\rm d}t}\left(m\boldsymbol{v}_{C}\right)=\tfrac{{\rm d}}{{\rm d}t}\left(m\boldsymbol{v}_{A}+\boldsymbol{\omega}\times m\,\boldsymbol{c}\right)\\
  & =m\boldsymbol{a}_{A}+\boldsymbol{\alpha}\times m\,\boldsymbol{c}+\boldsymbol{\omega}\times m\left(\boldsymbol{v}_{C}-\boldsymbol{v}_{A}\right)
-\end{aligned} $$
+\end{aligned} \tag{17}$$
 
 Note that $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{c} = \tfrac{\mathrm{d}}{\mathrm{d}t}\left( \boldsymbol{r}_C - \boldsymbol{r}_A\right) = \boldsymbol{v}_C - \boldsymbol{v}_A$
 
@@ -277,28 +277,18 @@ Similarly differentiate (10) to get
 $$ \begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{L}_{A} & =\tfrac{{\rm d}}{{\rm d}t}\left(\boldsymbol{c}\times m\boldsymbol{v}_{A}+\mathbf{I}_{A}\boldsymbol{\omega}\right)\\
  & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}+\left(\boldsymbol{v}_{C}-\boldsymbol{v}_{A}\right)\times m\boldsymbol{v}_{A}+\boldsymbol{c}\times m\boldsymbol{a}_{A}\\
  & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}+\boldsymbol{p}\times\boldsymbol{v}_{A}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}
-\end{aligned} $$
+\end{aligned} \tag{18}$$
 
+## Spatial Acceleration
 
-
-### Spatial Form
-
-Combining the above produces a rather messy result
-
-$$ \frac{\mathrm{d}}{\mathrm{d}t}
-\begin{bmatrix} \boldsymbol{p} \\ \boldsymbol{L}_A \end{bmatrix} =\begin{bmatrix}m & -m\boldsymbol{c}\times\\
-m\boldsymbol{c}\times & \mathbf{I}_{A}
-\end{bmatrix}\begin{bmatrix}\boldsymbol{a}_{A}\\
-\boldsymbol{\alpha}
-\end{bmatrix} + \begin{bmatrix}\boldsymbol{\omega}\times\left(\boldsymbol{p}-m\,\boldsymbol{v}_{A}\right)\\
-\boldsymbol{\omega}\times\boldsymbol{L}_{A}-m\,\boldsymbol{c}\times\left(\boldsymbol{\omega}\times\boldsymbol{v}_{A}\right)
-\end{bmatrix}  $$
+The above expressions are not very intuitive or elegant. 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wzg5ND
-Y0OTU4OCwxNDM4NTEzMzA3LC0xOTg3NzU0NzY0LC0xMTcxNTAw
-NDA4LC0xMjAxODk3ODc1LC0xODA3NzM4MDgzXX0=
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wzg1MD
+E3MTMyNiw4OTQ2NDk1ODgsMTQzODUxMzMwNywtMTk4Nzc1NDc2
+NCwtMTE3MTUwMDQwOCwtMTIwMTg5Nzg3NSwtMTgwNzczODA4M1
+19
 -->
