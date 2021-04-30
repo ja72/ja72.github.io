@@ -291,23 +291,33 @@ The material accelration can always be recovered from the spatial acceleration b
 
 $$ \boldsymbol{a}_{A}=\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\boldsymbol{v}_{A} \tag{20} $$
 
-### Translational Momentum
+### Translational Momentum Rate
 
 Use (20) into (17) to get 
 
 $$ \tfrac{{\rm d}}{{\rm d}t}\boldsymbol{p} = m\boldsymbol{a}_{A}^{\star}+\boldsymbol{\alpha}\times m\,\boldsymbol{c}+\boldsymbol{\omega}\times\boldsymbol{p} \tag{21} $$
 
-and use (20) into (18) to get
+### Rotational Momentum Rate
 
+and use (20) into (18) to get (with use of the vector triple products)
 
+$$\begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{L}_{A} & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}+\boldsymbol{p}\times\boldsymbol{v}_{A}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
+ & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\left(\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\boldsymbol{v}_{A}\right)-m\boldsymbol{v}_{A}\times\left(\boldsymbol{\omega}\times\boldsymbol{c}\right)+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
+ & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}^{\star}-m\boldsymbol{v}_{A}\times\left(\boldsymbol{\omega}\times\boldsymbol{c}\right)-\boldsymbol{c}\times m\left(\boldsymbol{v}_{A}\times\boldsymbol{\omega}\right)+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
+ & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\left(\boldsymbol{c}\times m\boldsymbol{v}_{A}\right)+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
+ & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\left(\mathbf{I}_{A}\boldsymbol{\omega}+\boldsymbol{c}\times m\boldsymbol{v}_{A}\right)\\
+ & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\boldsymbol{L}_{A}
+\end{aligned} \tag{22} $$
+
+### Spatial Momentum Rate
 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xNz
-czOTc4MzUwLDg5NDY0OTU4OCwxNDM4NTEzMzA3LC0xOTg3NzU0
-NzY0LC0xMTcxNTAwNDA4LC0xMjAxODk3ODc1LC0xODA3NzM4MD
-gzXX0=
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy04OT
+Y3NDU0OTEsLTE3NzM5NzgzNTAsODk0NjQ5NTg4LDE0Mzg1MTMz
+MDcsLTE5ODc3NTQ3NjQsLTExNzE1MDA0MDgsLTEyMDE4OTc4Nz
+UsLTE4MDc3MzgwODNdfQ==
 -->
