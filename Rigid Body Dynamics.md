@@ -343,15 +343,15 @@ m\boldsymbol{c}\times & \mathbf{I}_{A}
 \boldsymbol{L}_{A}
 \end{bmatrix} \tag{24} $$
 
-The above is valid at 
+The above is valid at _any_ arbitrary point **A**, being inertial, co-moving or completely independent of the motion of the center of mass. All of the 6×1 quantities above transform 
 <!--stackedit_data:
 eyJwcm9wZXJ0aWVzIjoiYXV0aG9yOiBKb2huIEFsZXhpb3Vcbn
 N0YXR1czogZHJhZnRcbmRhdGU6ICcyMDIxLTAzLTAxJ1xudGl0
 bGU6IEFuZ3VsYXIgTW9tZW50dW0gYW5kIFRvcnF1ZSBvbiBhIF
 JpZ2lkIEJvZHlcbnRhZ3M6ICdwaHlzaWNzLGR5bmFtaWNzLHJp
-Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy0xND
-A3MzkxMjc3LC0xNDc4NTUzOTg5LC04OTY3NDU0OTEsLTE3NzM5
-NzgzNTAsODk0NjQ5NTg4LDE0Mzg1MTMzMDcsLTE5ODc3NTQ3Nj
-QsLTExNzE1MDA0MDgsLTEyMDE4OTc4NzUsLTE4MDc3MzgwODNd
-fQ==
+Z2lkLWJvZHkscm90YXRpb25zJ1xuIiwiaGlzdG9yeSI6Wy03Nz
+I1MDQ5ODQsLTE0Nzg1NTM5ODksLTg5Njc0NTQ5MSwtMTc3Mzk3
+ODM1MCw4OTQ2NDk1ODgsMTQzODUxMzMwNywtMTk4Nzc1NDc2NC
+wtMTE3MTUwMDQwOCwtMTIwMTg5Nzg3NSwtMTgwNzczODA4M119
+
 -->
