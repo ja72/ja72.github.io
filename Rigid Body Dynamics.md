@@ -267,7 +267,7 @@ We need to expand on the rate of momentum and find the spatial form of dynamics.
 
 Use the transformation of velocity from the center of mass to the arbitrary point to relate the change in momentum with the motion of **A**. 
 
-$$ \begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{p} & =\tfrac{{\rm d}}{{\rm d}t}\left(m\boldsymbol{v}_{C}\right)=\tfrac{{\rm d}}{{\rm d}t}\left(m\boldsymbol{v}_{A}+\boldsymbol{\omega}\times m\,\boldsymbol{c}\right)\\
+$$ \begin{aligned}\tfrac{\mathrm{d}}{\mathrm{d}t}\boldsymbol{p} & =\tfrac{\mathrm{d}}{\mathrm{d}t}\left(m\boldsymbol{v}_{C}\right)=\tfrac{\mathrm{d}}{\mathrm{d}t}\left(m\boldsymbol{v}_{A}+\boldsymbol{\omega}\times m\,\boldsymbol{c}\right)\\
  & =m\boldsymbol{a}_{A}+\boldsymbol{\alpha}\times m\,\boldsymbol{c}+\boldsymbol{\omega}\times m\left(\boldsymbol{v}_{C}-\boldsymbol{v}_{A}\right)
 \end{aligned} \tag{17}$$
 
@@ -276,7 +276,7 @@ Note that $\tfrac{\mathrm{d}}{\mathrm{d}t} \boldsymbol{c} = \tfrac{\mathrm{d}}{\
 ### Rotational momentum
 
 Similarly differentiate (10) to get
-$$ \begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{L}_{A} & =\tfrac{{\rm d}}{{\rm d}t}\left(\boldsymbol{c}\times m\boldsymbol{v}_{A}+\mathbf{I}_{A}\boldsymbol{\omega}\right)\\
+$$ \begin{aligned}\tfrac{\mathrm{d}}{\mathrm{d}t}\boldsymbol{L}_{A} & =\tfrac{\mathrm{d}}{\mathrm{d}t}\left(\boldsymbol{c}\times m\boldsymbol{v}_{A}+\mathbf{I}_{A}\boldsymbol{\omega}\right)\\
  & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}+\left(\boldsymbol{v}_{C}-\boldsymbol{v}_{A}\right)\times m\boldsymbol{v}_{A}+\boldsymbol{c}\times m\boldsymbol{a}_{A}\\
  & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}+\boldsymbol{p}\times\boldsymbol{v}_{A}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}
 \end{aligned} \tag{18}$$
@@ -297,13 +297,13 @@ $$ \boldsymbol{a}_{A}=\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\bolds
 
 Use (20) into (17) to get 
 
-$$ \tfrac{{\rm d}}{{\rm d}t}\boldsymbol{p} = m\boldsymbol{a}_{A}^{\star}+\boldsymbol{\alpha}\times m\,\boldsymbol{c}+\boldsymbol{\omega}\times\boldsymbol{p} \tag{21} $$
+$$ \tfrac{\mathrm{d}}{\mathrm{d}t}\boldsymbol{p} = m\boldsymbol{a}_{A}^{\star}+\boldsymbol{\alpha}\times m\,\boldsymbol{c}+\boldsymbol{\omega}\times\boldsymbol{p} \tag{21} $$
 
 ### Rotational Momentum Rate
 
 and use (20) into (18) to get (with use of the vector triple products)
 
-$$\begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{L}_{A} & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}+\boldsymbol{p}\times\boldsymbol{v}_{A}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
+$$\begin{aligned}\tfrac{\mathrm{d}}{\mathrm{d}t}\boldsymbol{L}_{A} & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}+\boldsymbol{p}\times\boldsymbol{v}_{A}+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
  & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\left(\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\boldsymbol{v}_{A}\right)-m\boldsymbol{v}_{A}\times\left(\boldsymbol{\omega}\times\boldsymbol{c}\right)+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
  & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}^{\star}-m\boldsymbol{v}_{A}\times\left(\boldsymbol{\omega}\times\boldsymbol{c}\right)-\boldsymbol{c}\times m\left(\boldsymbol{v}_{A}\times\boldsymbol{\omega}\right)+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
  & =\mathbf{I}_{A}\boldsymbol{\alpha}+\boldsymbol{c}\times m\boldsymbol{a}_{A}^{\star}+\boldsymbol{\omega}\times\left(\boldsymbol{c}\times m\boldsymbol{v}_{A}\right)+\boldsymbol{\omega}\times\mathbf{I}_{A}\boldsymbol{\omega}\\
@@ -315,7 +315,7 @@ $$\begin{aligned}\tfrac{{\rm d}}{{\rm d}t}\boldsymbol{L}_{A} & =\mathbf{I}_{A}\b
 
 Combine (21) and (22) to the following expression for the rate of momentum in spatial form
 
-$$ \frac{{\rm d}}{{\rm d}t}\begin{bmatrix}\boldsymbol{p}\\
+$$ \frac{\mathrm{d}}{\mathrm{d}t}\begin{bmatrix}\boldsymbol{p}\\
 \boldsymbol{L}_{A}
 \end{bmatrix}=\begin{bmatrix}m & -m\boldsymbol{c}\times\\
 m\boldsymbol{c}\times & \mathbf{I}_{A}
