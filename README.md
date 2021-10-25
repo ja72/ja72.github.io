@@ -6,6 +6,9 @@ Biographical Information Here
 
 1. **Fortran**
 2. **C#**
+3. **StackOverflow** Reputation
+
+   <a href="https://stackexchange.com/users/160373"><img src="https://stackexchange.com/users/flair/160373.png" width="208" height="58" alt="profile for John Alexiou on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for John Alexiou on Stack Exchange, a network of free, community-driven Q&amp;A sites"></a>
 
 # Geomertry
 
