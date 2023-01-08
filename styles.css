@@ -1,16 +1,22 @@
 ﻿body {
-    background: linear-gradient(15deg, #d854c8, #27305e);
-    color:  white;     
+    background: linear-gradient(15deg, #075fc5, #6192bb);
+    font-size: larger;
     font-family: monospace;
-    font-size: large;
 }
 
 h1, h2 {
-    color:  aquamarine;
-    font-family: sans-serif;
+    color:  hsl(221, 80%, 20%);    
 }
 
 b {
-    color: greenyellow;
+    color: rgb(21, 90, 38);
 }
 
+a {
+   background-color: #2e7bd3;
+}
+sub {
+  float: right;
+  background-color: hsl(221, 80%, 20%);
+  color: rgb(178, 235, 192);
+}
