@@ -1,5 +1,5 @@
 ﻿body {
-    background: linear-gradient(15deg, #075fc5, #6192bb);
+    background: white; /* linear-gradient(15deg, #075fc5, #6192bb); /*
     font-size: larger;
     font-family: monospace;
 }
